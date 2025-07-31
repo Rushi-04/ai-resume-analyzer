@@ -13,7 +13,7 @@ const ScoreCircle = ({ score = 75 }: { score: number }) => {
         width="100%"
         viewBox="0 0 100 100"
         className="transform -rotate-90"
-      >
+      >  
         {/* Background circle */}
         <circle
           cx="50"
