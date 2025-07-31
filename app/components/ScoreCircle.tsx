@@ -4,7 +4,7 @@ const ScoreCircle = ({ score = 75 }: { score: number }) => {
   const normalizedRadius = radius - stroke / 2;
   const circumference = 2 * Math.PI * normalizedRadius;
   const progress = score / 100;
-  const strokeDashoffset = circumference * (1 - progress);
+  const strokeDashoffset = circumference * (1 - progress);  
 
   return (
     <div className="relative w-[100px] h-[100px]">
